@@ -1,0 +1,1 @@
+java -jar agent.jar -jnlpUrl http://localhost:8080/computer/sai_ubuntu/slave-agent.jnlp -secret b5de9e84c7363802478f2a5cd25b738b413e3c5653d6ff826244ce2106451143 -workDir "/home/sainath"

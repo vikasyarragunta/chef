@@ -1,0 +1,40 @@
+1-MS-DOS and Windows use a common text file format, with each line of text separated by a two-character combination: carriage return (CR) and line feed (LF).
+2-It is common for the last line of text not to be terminated with a CR-LF marker, and many text editors (including Notepad) do not automatically insert one on the last line.
+
+3-On Microsoft Windows operating systems, a file is regarded as a text file if the suffix of the name of the file (the "filename extension") is "txt".
+
+
+4-However, many other suffixes are used for text files with specific purposes.
+5-For example, source code for computer programs is usually kept in text files that have file name suffixes indicating the programming language in which the source is written.
+6-Most Windows text files use "ANSI", "OEM", "uni-code" or "UTF-8" encoding. What Windows terminology calls "ANSI encodings" are usually single-byte ISO/IEC 8859 encodings (i.e.
+7-ANSI in the Microsoft Notepad menus is really "System Code Page", non-uni-code, legacy encoding), except for in locales such as Chinese, Japanese and Korean that require double-byte character sets.
+
+
+
+8-ANSI encodings were traditionally used as default system locales within Windows, before the transition to uni-code. By contrast, OEM encodings, also known as DOS code pages, were defined by IBM for use in the original IBM PC text mode display system.
+9-They typically include graphical and line-drawing characters common in DOS applications.
+10-"uni-code"-encoded Windows text files contain text in UTF-16 uni-code Transformation Format.
+11-Such files normally begin with Byte Order Mark (BOM), which communicates the endianness of the file content.
+12-Although UTF-8 does not suffer from endianness problems, many Windows programs (i.e. Notepad) prepend the contents of UTF-8-encoded files with BOM,[2] to differentiate UTF-8 encoding from other 8-bit encodings.[3]
+1-MS-DOS and Windows use a common text file format, with each line of text separated by a two-character combination: carriage return (CR) and line feed (LF).
+
+
+
+2-It is common for the last line of text not to be terminated with a CR-LF marker, and many text editors (including Notepad) do not automatically insert one on the last line.
+3-On Microsoft Windows operating systems, a file is regarded as a text file if the suffix of the name of the file (the "filename extension") is "txt".
+
+
+
+
+4-However, many other suffixes are used for text files with specific purposes.
+5-For example, source code for computer programs is usually kept in text files that have file name suffixes indicating the programming language in which the source is written.
+6-Most Windows text files use "ANSI", "OEM", "uni-code" or "UTF-8" encoding. What Windows terminology calls "ANSI encodings" are usually single-byte ISO/IEC 8859 encodings (i.e.
+7-ANSI in the Microsoft Notepad menus is really "System Code Page", non-uni-code, legacy encoding), except for in locales such as Chinese, Japanese and Korean that require double-byte character sets.
+8-ANSI encodings were traditionally used as default system locales within Windows, before the transition to uni-code. By contrast, OEM encodings, also known as DOS code pages, were defined by IBM for use in the original IBM PC text mode display system.
+
+
+
+9-They typically include graphical and line-drawing characters common in DOS applications.
+10-"uni-code"-encoded Windows text files contain text in UTF-16 uni-code Transformation Format.
+11-Such files normally begin with Byte Order Mark (BOM), which communicates the endianness of the file content.
+12-Although UTF-8 does not suffer from endianness problems, many Windows programs (i.e. Notepad) prepend the contents of UTF-8-encoded files with BOM,[2] to differentiate UTF-8 encoding from other 8-bit encodings.[3]
